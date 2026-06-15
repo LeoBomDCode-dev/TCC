@@ -1,0 +1,13 @@
+body {
+    background-color: blueviolet; 
+}
+
+img {
+border-image-width: auto;
+width: 500px;
+align-self: center;
+font-family: 'Times New Roman', Times, serif;
+color:bisque;
+padding: auto;  
+}
+
