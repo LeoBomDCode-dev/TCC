@@ -1,0 +1,77 @@
+body {
+    background-color: #4d4b4dee;
+
+}
+
+.rodapé {
+  position: fixed;
+  bottom: 0;
+  width:500px;
+  color: rgb(251, 250, 249);
+  text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(179, 91, 209);
+    color: rgb(251, 250, 249);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 25px;
+    border-radius: 120px;
+    cursor: pointer;
+    margin: 30px;
+    width: 475px;
+    text-align: center;
+}
+.confirmar_senha {
+    width: 635px;
+    height: 150px;
+
+}
+
+.confirmar_senha label {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    width: 1265px;
+    text-align: left;
+}
+
+.confirmar_senha input {
+    padding: 10px;
+    height: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    align-items: left;
+
+}
+
+input {
+    padding: 10px;
+    height: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid #000000;
+    
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 91, 209);
+    width: 1265px;
+    text-align: center; 
+}
+
+head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

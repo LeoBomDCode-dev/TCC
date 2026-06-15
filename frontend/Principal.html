@@ -3,14 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Principal.css" rel="stylesheet" />
-    <title>Pombo_Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <title>pombo-tech - Página Inicial</title>
 </head>
-
 <body>
 
-    <div>
-         <img src="frontend/img/pombo.png" alt="Pombo" width="500" height="300">
-    </div> 
+    <header class="cabecalho">
+        <div class="logo">
+            <h2>pombo-tech</h2>
+        </div>
+        <nav class="menu">
+            <a href="index.html" class="ativo">Home</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="cadastro.html" class="btn-destaque">Criar Conta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-conteudo">
+                <h1>O futuro do seu projeto começa aqui</h1>
+                <p>Uma plataforma simples, rápida e intuitiva para gerenciar o que você precisa. Crie sua conta hoje mesmo e comece a usar gratuitamente.</p>
+                <div class="hero-botoes">
+                    <a href="cadastro.html" class="btn-principal">Começar Agora</a>
+                    <a href="#recursos" class="btn-secundario">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="recursos">
+            <div class="titulo-secao">
+                <h2>Por que nos escolher?</h2>
+                <p>Veja as principais vantagens da nossa plataforma.</p>
+            </div>
+            
+            <div class="recursos-grid">
+                <div class="card">
+                    <div class="icone">🚀</div>
+                    <h3>Alta Velocidade</h3>
+                    <p>Otimizado para carregar em menos de um segundo em qualquer dispositivo.</p>
+                </div>
+                <div class="card">
+                    <div class="icone">🔒</div>
+                    <h3>Segurança Máxima</h3>
+                    <p>Seus dados são protegidos com criptografia de ponta a ponta.</p>
+                </div>
+                <div class="card">
+                    <div class="icone">🎨</div>
+                    <h3>Fácil de Usar</h3>
+                    <p>Interface moderna e limpa, pensada na melhor experiência para você.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="sobre-conteudo">
+                <h2>Sobre a pombo-tech</h2>
+                <p>Nascemos com a missão de simplificar processos complexos. Acreditamos que a tecnologia deve trabalhar para você, e não o contrário. Nossa equipe foca em entregar código limpo, design elegante e suporte de verdade.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 pombo-tech. Todos os direitos reservados.</p>
+        <div class="links-rodape">
+            <a href="#">Privacidade</a>
+            <a href="#">Termos de Uso</a>
+        </div>
+    </footer>
+
 </body>
 </html>
