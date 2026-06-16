@@ -1,7 +1,18 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 91, 209);
+    height: 155px;
+    text-align: center;
+    font-size: 60px;
+  
+}
+
+
 body {
     background-color: #4d4b4dee;
 
 }
+
 
 .rodapé {
   position: fixed;
@@ -26,32 +37,15 @@ button {
     border-radius: 120px;
     cursor: pointer;
     margin: 30px;
-    width: 475px;
+    width: 500px;
     text-align: center;
 }
-.confirmar_senha {
-    width: 635px;
-    height: 150px;
 
+.container {
+    color: rgb(251, 250, 249);
 }
 
-.confirmar_senha label {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 0);
-    width: 1265px;
-    text-align: left;
-}
 
-.confirmar_senha input {
-    padding: 10px;
-    height: 10px;
-    width: 400px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 5px solid #000000;
-    align-items: left;
-
-}
 
 input {
     padding: 10px;
@@ -59,19 +53,17 @@ input {
     width: 400px;
     margin: 10px;
     border-radius: 10px;
-    border: 5px solid #000000;
+    border: 2px solid rgb(0, 0, 0);
     
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(179, 91, 209);
-    width: 1265px;
-    text-align: center; 
-}
 
 head {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.link a {
+    color: rgb(179, 91, 209);
 }

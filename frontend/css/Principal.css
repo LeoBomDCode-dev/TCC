@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0 
+}
+
+img {
+border-image-width: auto;
+width: 200px;
+align-self: center;
+font-family: 'Times New Roman', Times, serif;
+color:rgb(0, 0, 0);
+padding: auto;  
+
+}
+
+.logo{
+    display: flex;
+    background-color: rgb(255, 0, 0);
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(179, 91, 209);
+    height: 60px;
+    text-align: left;
+    font-size: 60px;
+    
+}
+
+.menu{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: right;
+    align-items: right;
+    height: 50px;
+
+}
+
+.menu img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    color:rgb(1, 106, 197)
+}
+
+.busca-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
