@@ -1,51 +1,148 @@
 body {
     background-color: rgb(255, 255, 255);
-    margin: 0 
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
 }
 
 img {
-border-image-width: auto;
-width: 200px;
-align-self: center;
-font-family: 'Times New Roman', Times, serif;
-color:rgb(0, 0, 0);
-padding: auto;  
-
+    width: 200px;
 }
 
-.logo{
+/* Barra do logo */
+.logo {
     display: flex;
-    background-color: rgb(255, 0, 0);
+    align-items: center;
+    background-color: rgb(190, 9, 187);
+    height: 105px;
 }
 
-.header{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(179, 91, 209);
-    height: 60px;
-    text-align: left;
-    font-size: 60px;
-    
-}
-
-.menu{
+.cabecalho {
     display: flex;
+    align-items: center;
+}
+
+/* Menu (busca, login, carrinho) */
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: rgb(255, 255, 255);
-    justify-content: right;
-    align-items: right;
     height: 50px;
-
+    padding: 0 10px;
 }
 
-.menu img{
+.menu img {
     width: 30px;
     height: 30px;
     margin: 5px;
-    color:rgb(1, 106, 197)
 }
 
-.busca-cabecalho{
+.busca-cabecalho {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.busca-cabecalho input {
+    height: 28px;
+    padding: 0 8px;
+}
+
+.btn-busca {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Hero */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: rgb(142, 10, 136);
+    text-align: center;
+    font-size: 60px;
+}
+
+.hero-conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-conteudo p {
+    color: rgb(179, 91, 209);
+    text-align: left;
+    font-size: 20px;
+}
+
+.hero-botoes {
+    display: flex;
+    gap: 15px;
     margin-top: 20px;
+}
+
+.btn-principal,
+.btn-secundario {
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-principal {
+    background-color: rgb(142, 10, 136);
+    color: white;
+}
+
+.btn-secundario {
+    border: 2px solid rgb(142, 10, 136);
+    color: rgb(142, 10, 136);
+}
+
+/* Recursos */
+.recursos,
+.sobre {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.recursos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 8px;
+}
+
+.icone {
+    font-size: 40px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: rgb(190, 9, 187);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.links-rodape a {
+    color: white;
+    margin: 0 10px;
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-group(root) {
+    animation-duration: 1s;
 }
